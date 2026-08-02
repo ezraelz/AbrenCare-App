@@ -8,7 +8,9 @@ export default function AppTabs() {
         <TabTrigger name="index" href="/">
           Home
         </TabTrigger>
-       
+        <TabTrigger name="profile" href="/">
+          Profile
+        </TabTrigger>
       </TabList>
     </Tabs>
   );
