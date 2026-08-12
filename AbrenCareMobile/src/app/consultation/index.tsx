@@ -59,24 +59,16 @@ export default function ConsultationOverview() {
           <Text style={styles.sectionLabel}>
             CHOOSE A SPECIALTY
           </Text>
-
           <View style={styles.specialtyGrid}>
-
             <SpecialtyButton title="General" />
-
             <SpecialtyButton
               title="Cardiology"
               selected
             />
-
             <SpecialtyButton title="Paediatrics" />
-
             <SpecialtyButton title="Neurology" />
-
             <SpecialtyButton title="Diabetes" />
-
             <SpecialtyButton title="Respiratory" />
-
           </View>
 
           
@@ -145,14 +137,8 @@ export default function ConsultationOverview() {
           <Text style={styles.infoText}>
             Video consultation · 30 min · 10:00 today
           </Text>
-
           <View style={{ height: 25 }} />
-
         </ScrollView>
-
-        
-        
-
       </View>
     </SafeAreaView>
   );

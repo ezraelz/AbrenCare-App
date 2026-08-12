@@ -12,20 +12,23 @@ import {
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 
-export default function NotFoundScreen() {
+export const handleGoBack = () => {
   const router = useRouter();
 
-  const handleGoBack = () => {
     if (router.canGoBack()) {
       router.back();
     } else {
       router.replace('/');
     }
-  };
+};
 
-  const handleGoHome = () => {
+export const handleGoHome = () => {
+  const router = useRouter();
+
     router.replace('/');
-  };
+};
+
+export default function NotFoundScreen() {
 
   return (
     <SafeAreaView style={styles.safeArea}>
