@@ -18,7 +18,7 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.esrael.AbrenCareMobile"
+      "package": "com.tsegaab.AbrenCareMobile"
     },
     "web": {
       "output": "static",
@@ -40,11 +40,9 @@
       "reactCompiler": true
     },
     "extra": {
-      "router": {
-        "appDir": "src/app"
-      },
+      "router": {},
       "eas": {
-        "projectId": "c4bb41d3-91a8-44c8-bdc1-64a6a743084a"
+        "projectId": "5632f276-e978-40ac-94e1-26f135b1f324"
       }
     }
   }
